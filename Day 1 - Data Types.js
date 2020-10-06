@@ -18,15 +18,6 @@ function main(){
     console.log((d+d_2).toFixed(1));
     
     // Concatenate and print the String variables on a new line
-    s_2 = "is the best place to learn and practice coding!";
-
-    // Print the sum of both integer variables on a new line.
-    console.log(i + i_2);
-    
-    // Print the sum of the double variables on a new line.
-    console.log((d+d_2).toFixed(1))
-    
-    // Concatenate and print the String variables on a new line
     // The 's' variable above should be printed first.
     console.log(s.concat(s_2));
 }
