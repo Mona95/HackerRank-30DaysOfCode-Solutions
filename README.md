@@ -1,3 +1,3 @@
-# 30DaysOfCode - JS Solutions
+# 30DaysOfCode - Solutions
 
 Answers and Solutions related to `30 Days of Code` Challenge in <b>Hacker Rank</b>
