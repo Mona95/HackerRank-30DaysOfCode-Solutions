@@ -1,10 +1,5 @@
 
 function getHeight(root){
-   if (root === undefined) {
-        return -1;
-    }
-    // get the max of the between left and right
-    var max = Math.max(this.getHeight(root.left), this.getHeight(root.right));
-
-    return 1 + max;
+   if(!root) return -1;
+    return Math.max(this.getHeight(root.left) + 1, this.getHeight(root.right) + 1);
 }
